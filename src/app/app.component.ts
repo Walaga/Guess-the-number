@@ -29,10 +29,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Guess the Number';
-  deviation: number;
-  noOfTries: number;
-  original: number;
-  guess: number;
+  deviation!: number;
+  noOfTries!: number;
+  original!: number;
+  guess!: number;
 
   constructor() {
       this.initializeGame();
